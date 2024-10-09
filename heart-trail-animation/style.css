@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+span {
+    background: url('https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png') no-repeat center;
+    background-size: contain; /* Ensure the icon fits within the span */
+    position: absolute;
+    pointer-events: none; /* Prevent interfering with mouse actions */
+    animation: animate 3s ease forwards; /* Shortened animation */
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%) scale(1); /* Starts at normal size */
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -200%) scale(0); /* Shrinks while moving upwards */
+        opacity: 0;
+    }
+}
