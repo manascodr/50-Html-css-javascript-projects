@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h2{
+    text-align: center;
+}
+.view-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.top{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    .profile{
+        padding: 1.5rem;
+        border: 2px solid rgb(104, 103, 103);
+        border-radius: 50%;
+    }
+    .lines{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+
+        .line-1{
+            border: 1px solid rgb(104, 103, 103);
+            width: 60%;
+        }
+        .line-2{
+            border: 1px solid rgb(104, 103, 103);
+            width: 80%;
+        }
+    }
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .6rem;
+
+    .box{
+        width: 50px;
+        border: 2px solid rgb(104, 103, 103);
+        padding: 10rem;
+        position: relative;
+    }
+    .icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        // gap: .5rem;
+        
+        .left{
+            display: flex;
+            gap: .5rem;
+        }
+
+        img{
+            width: 30px;
+        }
+    }
+} 
+
+        #heartpng{
+            display: none;
+            position: absolute;
+            width: 40%;
+            left: 30%;
+            top: 35%;
+        }
