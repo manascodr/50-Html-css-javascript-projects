@@ -46,10 +46,18 @@ html, body {
   padding: 0 2rem;
 }
 .card .cont .pay .available {
-  color: rgb(51, 211, 51);
+  background-color: #5ed087;
+  padding: 4px 8px;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.9rem;
 }
 .card .cont .pay .hired {
-  color: red;
+  background-color: #d44242;
+  padding: 4px 8px;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.9rem;
 }
 .card .cont .pic img {
   width: 120px;

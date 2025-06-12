@@ -47,10 +47,18 @@ html, body {
     padding: 0 2rem;
     
     .available{
-      color: rgb(51, 211, 51);
+      background-color: #5ed087;
+      padding: 4px 8px;
+      border-radius: 1rem;
+      color: white;
+      font-size: .9rem;
     }
     .hired{
-      color: red;
+      background-color: #d44242;
+      padding: 4px 8px;
+      border-radius: 1rem;
+      color: white;
+      font-size: .9rem;
     }
   }
   .pic{
