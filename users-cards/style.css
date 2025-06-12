@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f0f4f7;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 6.5rem;
+}
+
+.card {
+  width: 19rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.card .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.4rem 1rem;
+  padding-bottom: 0;
+}
+.card .cont .pay {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.card .cont .pay .available {
+  color: rgb(51, 211, 51);
+}
+.card .cont .pay .hired {
+  color: red;
+}
+.card .cont .pic img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.card .cont .name-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.card .cont .name-cont .name {
+  font-size: 1.4rem;
+}
+.card .cont .name-cont .post {
+  font-size: 0.8rem;
+  color: gray;
+}
+.card .cont .skills {
+  display: flex;
+  gap: 0.8rem;
+}
+.card .cont .skills p {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.7rem;
+}
+.card .cont .about {
+  text-align: center;
+  width: 80%;
+  font-size: 0.75rem;
+  color: gray;
+}
+.card .cont .line {
+  margin-top: 1rem;
+  text-align: center;
+  height: 1px;
+  background-color: rgb(221, 221, 221);
+  width: 20%;
+}
+.card button {
+  border: none;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+}
+.card button:hover {
+  background-color: rgb(49, 170, 49);
+}
