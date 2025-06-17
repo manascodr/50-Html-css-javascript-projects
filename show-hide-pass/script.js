@@ -1,21 +1,26 @@
-let input = document.querySelector('input')
+let ipt = document.querySelector('input')
 let btn = document.querySelector('button')
 let img = document.querySelector('img')
 
+ipt.addEventListener('input', function(){
+    if (ipt.value.trim() === '') {
+        btn.disabled = true
+    } else {
+        btn.disabled = false
+    }
+})
+
 img.addEventListener('click', function(){
-   if (input.type == 'password') { 
-    input.type ='text' 
+   if (ipt.type == 'password') { 
+    ipt.type ='text' 
     img.src = './icons/hide.svg'
 }
-   else {
-    input.type = 'password'
+else {
+    ipt.type = 'password'
     img.src = './icons/unhide.svg'
 }
 })
 
 
-// img.addEventListener('click', () => {
-//     const isPassword = input.type === 'password';
-//     input.type = isPassword ? 'text' : 'password';
-//     img.src = isPassword ? './icons/hide.svg' : './icons/unhide.svg';
-// });
+
+
