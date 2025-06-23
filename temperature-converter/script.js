@@ -3,7 +3,7 @@ let result= document.querySelector('.result')
 let cel = document.querySelector('.c')
 let feh = document.querySelector('.f')
 let btns = document.querySelector('.btn')
-
+    
 
 cel.addEventListener('click', function(){
     if (isNaN(input.value) || input.value.trim() === "") {
