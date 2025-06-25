@@ -62,3 +62,6 @@ h1 {
 .buttons button:hover {
   opacity: 0.85;
 }
+.buttons button:disabled {
+  background-color: #d2e9d2;
+}
