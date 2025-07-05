@@ -32,7 +32,7 @@ taskList.addEventListener('click', function(e) {
   if (e.target.classList.contains('remove-btn')) {
     e.target.parentElement.remove();
   }if(e.target.classList.contains('completed')){
-
+    
   }
 });
 
