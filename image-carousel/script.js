@@ -18,16 +18,13 @@ next.addEventListener("click", function () {
     count++;
     console.log(count);
 
-    img.src = `${images[count]}`;
+    img.src = images[count];
   }
 });
 prv.addEventListener("click", function () {
-  if (count <= 0) {
-    count = 0;
-    img.src = `${images[count]}`;
-  } else {
+  if (count > 0) {
     count--;
-    console.log(count);
-    img.src = `${images[count]}`;
+    img.src = images[count];
   }
 });
+
