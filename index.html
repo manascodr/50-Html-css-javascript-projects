@@ -4,170 +4,138 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>50 JS Projects Showcase - ManasCodr</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #111;
-      color: #fff;
-    }
-
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 2rem;
-      padding: 2rem;
-    }
-
-    .card {
-      background-color: #1e1e1e;
-      border-radius: 12px;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .preview {
-      width: 100%;
-      height: 200px;
-      border: none;
-    }
-
-    .card-content {
-      padding: 1rem;
-    }
-
-    .card-title {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem 0;
-    }
-
-    .card-link {
-      text-decoration: none;
-      color: #00bcd4;
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 400px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 min-h-screen">
 
-  <header>
-    <h1>🧪 50 HTML/CSS/JS Projects by Manas</h1>
-    <p>Live Preview | <a href="https://github.com/ManasCodr/50-Html-css-javascript-projects" style="color:#00bcd4" target="_blank">GitHub Repo</a></p>
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold mb-2">🚀 50 JS Projects by <span class="text-cyan-400">Manas</span></h1>
+    <p class="text-gray-400">Live preview • <a class="text-cyan-400 underline hover:text-cyan-300" target="_blank" href="https://github.com/ManasCodr/50-Html-css-javascript-projects">GitHub Repo</a></p>
   </header>
 
-  <div class="grid">
+  <main class="container mx-auto px-4 pb-12">
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
-    <!-- Repeat this block for each project -->
 
 
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/users-cards/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Users Card</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/users-cards/" target="_blank">Open Live</a>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/click-counter/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">click counter</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/click-counter/">🔗 Open Live</a>
+        </div>
       </div>
-    </div>
 
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/heart-trail-animation/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Heart Trail Animation</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/heart-trail-animation/" target="_blank">Open Live</a>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/github-profile/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Github profile</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/github-profile/">🔗 Open Live</a>
+        </div>
       </div>
-    </div>
 
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/insta-like/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Instagram Like Effect</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/insta-like/" target="_blank">Open Live</a>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/heart-trail-animation/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Heart trail animation</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/heart-trail-animation/">🔗 Open Live</a>
+        </div>
       </div>
-    </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/image-carousel/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Image carousel</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/image-carousel/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/images-hover-effect/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Images hover effect</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/images-hover-effect/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/insta-like/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Instagram Like Effect</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/insta-like/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/mouse-follow/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Mouse follow</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/mouse-follow/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/number-guessing-game/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Number guessing game</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/number-guessing-game/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/pixel-color-board/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Pixel color board</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/pixel-color-board/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/random-quotes/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Random quotes</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/random-quotes/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/roll-dice/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Roll dice</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/roll-dice/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/show-hide-pass/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Show hide pass</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/show-hide-pass/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/simple-stopwatch/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Simple stopwatch</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/simple-stopwatch/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/temperature-converter/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Temperature Converter</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/temperature-converter/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/to-do-list/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">To Do list</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/to-do-list/">🔗 Open Live</a>
+        </div>
+      </div>
+      <div class="bg-gray-800/60 backdrop-blur rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 transition">
+        <iframe class="w-full h-52" src="https://manascodr.github.io/50-Html-css-javascript-projects/users-cards/"></iframe>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold mb-2">Users cards</h2>
+          <a class="text-cyan-400 hover:text-cyan-300 text-sm" target="_blank" href="https://manascodr.github.io/50-Html-css-javascript-projects/users-cards/">🔗 Open Live</a>
+        </div>
+      </div>
 
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/click-counter/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Click Counter</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/click-counter/" target="_blank">Open Live</a>
-      </div>
+      
     </div>
+  </main>
 
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/mouse-follow/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Mouse Follow</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/mouse-follow/" target="_blank">Open Live</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/number-guessing-game/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Number Guessing Game</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/number-guessing-game/" target="_blank">Open Live</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/temperature-converter/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Temperature Converter</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/temperature-converter/" target="_blank">Open Live</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/show-hide-pass/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Show/Hide Password</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/show-hide-pass/" target="_blank">Open Live</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/simple-stopwatch/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Simple Stopwatch</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/simple-stopwatch/" target="_blank">Open Live</a>
-      </div>
-    </div>
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/random-quotes/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Random Quotes generator</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/random-quotes/" target="_blank">Open Live</a>
-      </div>
-    </div>
-    <div class="card">
-      <iframe class="preview" src="https://manascodr.github.io/50-Html-css-javascript-projects/images-hover-effect/"></iframe>
-      <div class="card-content">
-        <div class="card-title">Multiple images hover effect</div>
-        <a class="card-link" href="https://manascodr.github.io/50-Html-css-javascript-projects/images-hover-effect/" target="_blank">Open Live</a>
-      </div>
-    </div>
-
-  </div>
 </body>
 </html>
